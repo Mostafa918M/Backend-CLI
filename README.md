@@ -82,6 +82,10 @@ cname g new project-name
 
 
 This will create a fully configured Express backend project with the default structure.
+you have to Install Dependencies after generate new project
+```bash
+npm i
+```
 
 ### Generate a New Resource (CRUD)
 ```bash
@@ -149,5 +153,6 @@ cname g controller auth --import
 ```bash
 cname g route user --import
 ```
+
 
 
