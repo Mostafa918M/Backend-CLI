@@ -53,20 +53,23 @@ project-root/
 └── README.md
 ```
 ## Installation
-1. Clone the CLI Repository
+### 1. Clone the CLI Repository
 ``` bash
 git clone https://github.com/Mostafa918M/Backend-CLI.git
 ```
 
-2. Go to the CLI Folder
-cd express-backend-cli
-
-3. Install Dependencies
-npm install
-
-4. Link the CLI Globally
+### 2. Go to the CLI Folder
+```bash
+cd Backend-CLI
+```
+### 3. Install Dependencies
+```bash
+npm i
+```
+### 4. Link the CLI Globally
+```bash
 npm link
-
+```
 
 ✅ Now the CLI command is available anywhere on your system.
 
@@ -146,4 +149,5 @@ cname g controller auth --import
 ```bash
 cname g route user --import
 ```
+
 
