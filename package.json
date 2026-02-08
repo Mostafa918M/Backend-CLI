@@ -1,0 +1,28 @@
+{
+  "name": "cname-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for generating Express.js boilerplate code",
+  "main": "bin/cname.js",
+  "bin": {
+    "cname": "./bin/cname.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "express",
+    "generator",
+    "boilerplate",
+    "crud"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
